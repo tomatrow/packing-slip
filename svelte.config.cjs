@@ -1,7 +1,7 @@
 const sveltePreprocess = require('svelte-preprocess');
 const netlify = require('@sveltejs/adapter-netlify');
 const pkg = require('./package.json');
-const zenFormat = require("zen-format")
+const zenFormat = require("./scripts/zen-format/index.cjs")
 
 /** @type {import('@sveltejs/kit').Config} */
 module.exports = {
